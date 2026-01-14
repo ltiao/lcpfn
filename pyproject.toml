@@ -9,10 +9,10 @@ authors = [
     {name = "Samuel Müller", email = "muellesa@cs.uni-freiburg.de"},
     {name = "Frank Hutter", email = "fh@cs.uni-freiburg.de"},
 ]
-requires-python = ">=3.9,<3.12"
+requires-python = ">=3.9"
 dependencies = [
-    "torch<=1.11.0",
-    "numpy>=1.21.2,<2",
+    "torch",
+    "numpy>=1.21.2",
     "requests>=2.23.0"
 ]
 dynamic = ["version"]
